@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<section class="about" id="aboutId">
+  <header class="header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="#aboutId" class="nav__link">О  себе</a></li>
+                <li><a href="#worksId" class="nav__link">Мои работы</a></li>
+                 <li><a href="#worksIntId" class="nav__link">Мои работы в интерьере</a></li>
+                <li><a href="#delivery" class="nav__link">Доставка</a></li>
+                <li><a href="#footerId" class="nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header__burger">
+            <span class="burger__menu"></span>
+        </div>
+    </div>
+</header>
+    <div class="container" id="activeContainer">
+       <h2 class="about__title title">О себе</h2>
+        <div class="about__inner-wrapper">
+            <div class="about__photo">
+                <img src="img/Author.jpg" alt="Valya" width="400" height="400">
+            </div>
+            <div class="about__desc">
+                <span class="about__desc-name">Валентина Рудакова</span>
+                <p class="about__desc-text">
+                "Если под душой понимать способность чувствовать любовь, хранить верность и испытывать благодарность, то животные в этом отношении бывают гораздо лучше, чем многие из людей."
+                </p>
+                <i class="about__desc-textAuthor">Джеймс Хэрриот</i>
+                <p class="about__desc-text">Я обожаю рисовать животных. Их образы, пластика, грация меня завораживают и вдохновляют. Появляется желание донести эту красоту до каждого человека на Земле.
+                </p>
+                <p class="about__desc-text">Мое увлечение и очарование живописью началось с самого детства. И более десяти лет назад я приняла решение заниматься этим серьезно и профессионально. <br> <br>
+
+                Из значимых достижений на моем пути к познанию искусства сегодня можно отметить: диплом с отличием об окончании художественной школы, призёрство в конкурсах различных <a href="pdf/document.pdf" target="__blank" type="application/pdf">категорий</a>, участие в интервью, грантовых программах, творческих выставках Москвы и Московской области и похвальные письма от губернатора г.о. Подольск Громова Б.В. <br> <br>
+
+                Я благодарна своим учителям за мастерство и технику, которым они меня научили, ведь теперь я могу передать энергию движения каждого объекта. <br>
+                Осторожно: может показаться, что животные провожают вас взглядом. Этот приём мне удалось перенять от художников с мировым признанием. <br> <br>
+
+                Моя мечта и цель - пополнить своими картинами частные и государственные коллекции искусства по всему миру! <br> <br>
+
+                Картины, выполненные с любовью, станут прекрасным подарком для вас и ваших близких.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="works" id="worksId">
+   <h2 class="works__title title">Мои работы</h2>
+    <div class="container">
+       <div class="works__items-wrapper">
+           <div class="works__item">
+               <img src="img/tigr.jpg" alt="">
+           </div>
+           <div class="works__item">
+               <img src="img/tigrenok.jpg" alt="">
+           </div>
+       </div>
+       <div class="works__items-wrapper">
+           <div class="works__item" id="Gepard">
+               <img src="img/gepard.jpg" alt="">
+           </div>
+           <div class="works__item">
+               <img src="img/zayac.jpg" alt="">
+           </div>
+       </div>
+       <div class="works__items-wrapper">
+           <div class="works__item">
+               <img src="img/obezyana.jpg" alt="">
+           </div>
+           <div class="works__item" id="Gorilla">
+               <img src="img/gorilla.jpg" alt="">
+           </div>
+       </div>
+       <div class="works__items-wrapper">
+           <div class="works__item">
+               <img src="img/2gorillas.jpg" alt="">
+           </div>
+           <div class="works__item" id="Gorilla">
+               <img src="img/pudel.jpg" alt="">
+           </div>
+       </div>
+    </div>
+</section>
+
+<section class="worksInterior" id="worksIntId">
+   <h2 class="title worksInterior-title">Работы в интерьере</h2>
+    <div class="container">
+        <div class="works-slider">
+            <div class="works-slider__item">
+                <img id="gepardInt" src="img/gepardInt.jpg" alt="">
+            </div>
+            <div class="works-slider__item">
+                <img id="obezyanaInt" src="img/obezyanaInt.jpg" alt="">
+            </div>
+             <div class="works-slider__item">
+                <img id="pudelInt" src="img/pudelInt.jpg" alt="">
+            </div>
+            <div class="works-slider__item">
+                <img id="zayacInt" src="img/zayacInt.jpg" alt="">
+            </div>
+            <div class="works-slider__item">
+                <img id="tigrenokInt" src="img/tigrenokInt.jpg" alt="">
+            </div>
+            <div class="works-slider__item">
+                <img id="dogInt" src="img/dogInt.jpg" alt="">
+            </div>
+              <div class="works-slider__item">
+                <img src="img/goRillaint.jpg" alt="">
+            </div>
+            <div class="works-slider__item">
+                <img id="tigrInt2" src="img/tigrInt.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="delivery" id="delivery">
+    <h2 class="title">Доставка</h2>
+    <div class="container">
+        <span class="delivery__question">Как я могу купить картину / уточнить стоимость / узнать, есть ли работа в наличии?</span>
+        <p class="delivery__answer">Для заказа картины пожалуйста звоните по телефону <a href="tel:+79037357935">+7 (903) 735-79-35</a> или пишите на <a href="mailto:rudakova-va@mail.ru">rudakova-va@mail.ru</a> со ссылкой на понравившуюся вам работу. Так же вы можете уточнить любые интересующие вас вопросы.</p>
+        <p class="delivery__answer">Оплата осуществляется следующим образом: <br>
+            - Оплата по счету <br>
+            - Оплата при получении (доступно для Москвы и Московской области)</p>
+        <span class="delivery__question">Работаете ли вы на заказ?</span>
+        <p class="delivery__answer">Да, если поставленная задача кажется мне интересной. Условия и сроки обсуждаются индивидуально.
+        </p>
+        <span class="delivery__question">Подойдет ли картина к моему интерьеру?</span>
+        <p class="delivery__answer">
+            Вы можете прислать фото своего интерьера (с габаритами вашей мебели) и я помогу вам с выбором картины, которая будет гармонично смотреться в вашем доме.</p>
+        <span class="delivery__question">Проконсультируете ли вы меня по поводу подбора рамы для картины?</span>
+        <p class="delivery__answer">С удовольствием помогу вам подобрать наилучший вариант. Этот вопрос обсуждается индивидуально, исходя из ваших предпочтений и интерьера. Возможна доставка в выбранной вами раме за отдельную плату.</p>
+        <span class="delivery__question">Как я могу купить картину, находясь в другом городе?</span>
+        <p class="delivery__answer">Картины находятся в Москве. Если вы живете в Москве и Московской области - возможно осуществление доставки лично мной. В таком случае стоимость доставки определяется стоимостью услуг курьерских служб</p>
+        <p class="delivery__answer">Отправка работ осуществляется по всему миру. Если вы живете в другом городе, я вышлю вам картину DHL или аналогичной почтовой службой. Каждая работа упаковывается в несколько слоев пузырчатой плёнки и отправляется в картонной коробке. Это самый надежный способ упаковки, который позволяет полностью избежать неприятных случаев. Картина отправляется в стандартной рамке, и её можно вешать на стену сразу после распаковки.</p>
+        <span class="delivery__question">Можно ли заказать очень маленькую или очень большую картину?
+        </span>
+        <p class="delivery__answer">Картины выполняются в двух размерах: <br>
+            - Формат А4 (210х297) <br>
+            - Формат А3 (297х420)</p>
+        <span class="delivery__question">Можно ли заказать повтор уже проданной работы?
+        </span>
+        <p class="delivery__answer">Каждая картина уникальна и осуществляется в единственном экземпляре. Конечно, можно повторно нарисовать картину, которая выставлена на сайте, но нужно учитывать, что возможны отличия от оригинала.</p>
+    </div>
+</section>
+
+<footer class="footer" id="footerId">
+    <div class="container">
+        <p class="footer__text">Для заказа вы можете связаться со мной через телефон (WhatsApp, Telegaram), почту или социальные сети.</p>
+        <a href="tel:+79037357935"><span>+7 (903) 735-79-35</span></a> <br>
+        <a class="footer__mail" href="mailto:rudakova-va@mail.ru"><span>rudakova-va@mail.ru</span></a>
+        <div class="footer__icons">
+            <a class="footer__icon" href="https://instagram.com/vvvvalentina_/"><img src="img/instagram.svg" height="25" width="25" alt=""></a>
+            <a class="footer__icon" href="https://vk.com/vvvvalentina"><img src="img/vk.svg" height="25" width="25" alt=""></a>
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/slick.min.js"></script>
+
+</body>
+</html>
